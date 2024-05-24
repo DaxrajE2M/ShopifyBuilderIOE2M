@@ -31,7 +31,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   const productVariant: any = product.variants[0]
   const price = getPrice(
     productVariant.priceV2.amount,
-    productVariant.priceV2.currencyCode
+    productVariant.priceV2.USD
   )
 
   return (
