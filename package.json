@@ -44,6 +44,7 @@
     ]
   },
   "dependencies": {
+    "20": "^1.0.0",
     "@builder.io/dev-tools": "^1.0.12",
     "@builder.io/react": "^3.2.6",
     "@builder.io/sdk": "^2.2.2",
