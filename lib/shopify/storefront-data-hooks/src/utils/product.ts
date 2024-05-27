@@ -51,12 +51,16 @@ export function prepareVariantsWithOptions(
   }) as any[]
 }
 
-export const getPrice = (price: string, currency: string) =>
-  Intl.NumberFormat(undefined, {
-    currency,
-    minimumFractionDigits: 2,
+// Example React component
+export const getPrice = (price: string, currency: string = 'USD') => {
+  const formatter = new Intl.NumberFormat(undefined, {
     style: 'currency',
-  }).format(parseFloat(price ? price : '0'))
+    currency: currency,
+    minimumFractionDigits: 2,
+  })
+
+  return formatter.format(Number(price))
+}
 
 /*
   prepareVariantsImages()
