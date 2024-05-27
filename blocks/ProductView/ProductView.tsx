@@ -142,7 +142,12 @@ const ProductBox: React.FC<Props> = ({
         <div sx={{ display: 'flex', flexDirection: 'column' }}>
           <span sx={{ mt: 0, mb: 2 }}>
             <Heading>{title}</Heading>
-            <Heading as="h4" aria-label="price" sx={{ mt: 0, mb: 2 }}>
+            <Heading
+              as="h4"
+              aria-label="price"
+              sx={{ mt: 0, mb: 2 }}
+              suppressHydrationWarning
+            >
               {getPrice(variant.priceV2.amount, variant.priceV2.currencyCode)}
             </Heading>
           </span>
