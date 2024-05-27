@@ -52,14 +52,14 @@ export function prepareVariantsWithOptions(
 }
 
 // Example React component
-export const getPrice = (price: string, currency: string = 'USD') => {
-  const formatter = new Intl.NumberFormat(undefined, {
+export const getPrice = (price: number, currency: string = 'USD'): string => {
+  const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
-    currency: currency,
+    currency,
     minimumFractionDigits: 2,
   })
 
-  return formatter.format(Number(price))
+  return formatter.format(price)
 }
 
 /*
