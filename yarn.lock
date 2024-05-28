@@ -305,7 +305,7 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@builder.io/dev-tools@^1.0.12":
+"@builder.io/dev-tools@latest":
   version "1.0.12"
   resolved "https://registry.npmjs.org/@builder.io/dev-tools/-/dev-tools-1.0.12.tgz"
   integrity sha512-bkYpGoEzDpoGDsbrO1uL+KFFbWUwuj8taVUNgK+rd+5V3f0AL15Gmk4VRHxTeWxhxYgi6+UjfRJgAMq/b3N5rA==
@@ -314,7 +314,7 @@
     prettier "^2.8.8"
     typescript "^5.1.6"
 
-"@builder.io/react@^3.2.6":
+"@builder.io/react@latest":
   version "3.2.6"
   resolved "https://registry.npmjs.org/@builder.io/react/-/react-3.2.6.tgz"
   integrity sha512-3VyY3UXydhhjMXu+0sm187jNzQ59WFyTihok47/ZWHyKYJ1tbtpWaoi7pvrUlc89Kcg1pTmY0IipVygk+oO1pg==
@@ -328,7 +328,7 @@
     node-fetch "^2.6.1"
     prop-types "^15.7.2"
 
-"@builder.io/sdk@^2.2.2", "@builder.io/sdk@2.2.2":
+"@builder.io/sdk@2.2.2", "@builder.io/sdk@latest":
   version "2.2.2"
   resolved "https://registry.npmjs.org/@builder.io/sdk/-/sdk-2.2.2.tgz"
   integrity sha512-XUEuMiohLwD+FJCCEb2FuNNcupt2x+QvAbwf2j7X+52yxFBIVfsslUKycX6mH6y0BdJSqRE19xWOkEnVPSdpZQ==

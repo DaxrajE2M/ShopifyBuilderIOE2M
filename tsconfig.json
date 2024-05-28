@@ -2,11 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "target": "esnext",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -19,21 +15,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@lib/*": [
-        "lib/*"
-      ],
-      "@assets/*": [
-        "assets/*"
-      ],
-      "@config/*": [
-        "config/*"
-      ],
-      "@components/*": [
-        "components/*"
-      ],
-      "@utils/*": [
-        "utils/*"
-      ]
+      "@lib/*": ["lib/*"],
+      "@assets/*": ["assets/*"],
+      "@config/*": ["config/*"],
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"]
     },
     "incremental": true,
     "plugins": [
@@ -49,7 +35,5 @@
     "**/*.js",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
